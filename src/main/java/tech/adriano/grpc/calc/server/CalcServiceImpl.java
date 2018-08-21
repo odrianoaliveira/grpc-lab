@@ -15,6 +15,27 @@ public class CalcServiceImpl extends CalcServiceGrpc.CalcServiceImplBase {
 
     @Override
     public StreamObserver<ComputeAverageRequest> average(StreamObserver<ComputeAverageResponse> responseObserver) {
+        return new StreamObserver<ComputeAverageRequest>() {
+            private int count;
+            private int sum;
 
+            @Override
+            public void onNext(ComputeAverageRequest value) {
+                sum += value.getNumber();
+                count++;
+            }
+
+            @Override
+            public void onError(Throwable t) {
+                System.err.println(t.getMessage());
+            }
+
+            @Override
+            public void onCompleted() {
+                double avg = sum / count;
+                responseObserver.onNext(ComputeAverageResponse.newBuilder().setAverage(avg).build());
+                responseObserver.onCompleted();
+            }
+        };
     }
 }

@@ -2,104 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4693d684-2b94-489f-b602-da6c2de789be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc/server/CalcServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc/server/CalcServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/proto/calc/calc.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc/client/CalcClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/dummy/Dummy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/dummy/Dummy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/dummy/DummyMessage$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/dummy/DummyMessage$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/dummy/DummyMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/dummy/DummyMessageOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/dummy/DummyServiceGrpc$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/dummy/DummyServiceGrpc$DummyServiceBaseDescriptorSupplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/dummy/DummyServiceGrpc$DummyServiceBlockingStub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/dummy/DummyServiceGrpc$DummyServiceFileDescriptorSupplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/dummy/DummyServiceGrpc$DummyServiceFutureStub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/dummy/DummyServiceGrpc$DummyServiceImplBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/dummy/DummyServiceGrpc$DummyServiceMethodDescriptorSupplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/dummy/DummyServiceGrpc$DummyServiceStub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/dummy/DummyServiceGrpc$MethodHandlers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/dummy/DummyServiceGrpc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/Greet$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/Greet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetManyTimesRequest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetManyTimesRequest$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetManyTimesRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetManyTimesRequestOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetManyTimesResponse$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetManyTimesResponse$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetManyTimesResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetManyTimesResponseOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetRequest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetRequest$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetRequestOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetResponse$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetResponse$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetResponseOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceBaseDescriptorSupplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceBlockingStub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceFileDescriptorSupplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceFutureStub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceImplBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceMethodDescriptorSupplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$GreetServiceStub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc$MethodHandlers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetServiceGrpc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/Greeting$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/Greeting$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/Greeting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/GreetingOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/Prime$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/Prime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeRequest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeRequest$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeRequestOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeResponse$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeResponse$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeResponseOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeServiceGrpc$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeServiceGrpc$MethodHandlers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeServiceGrpc$PrimeServiceBaseDescriptorSupplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeServiceGrpc$PrimeServiceBlockingStub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeServiceGrpc$PrimeServiceFileDescriptorSupplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeServiceGrpc$PrimeServiceFutureStub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeServiceGrpc$PrimeServiceImplBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeServiceGrpc$PrimeServiceMethodDescriptorSupplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeServiceGrpc$PrimeServiceStub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/proto/greet/PrimeServiceGrpc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/dummy/dummy.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/google/protobuf/any.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/google/protobuf/api.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/google/protobuf/compiler/plugin.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/google/protobuf/descriptor.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/google/protobuf/duration.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/google/protobuf/empty.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/google/protobuf/field_mask.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/google/protobuf/source_context.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/google/protobuf/struct.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/google/protobuf/timestamp.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/google/protobuf/type.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/google/protobuf/wrappers.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/greet/greet.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/prime/prime.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/tech/adriano/grpc/greeting/client/GreetingClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/tech/adriano/grpc/greeting/server/GreetServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/tech/adriano/grpc/greeting/server/GreetingServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/tech/adriano/grpc/prime/client/PrimeClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/tech/adriano/grpc/prime/server/PrimeServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/tech/adriano/grpc/prime/server/PrimeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/grpc/com/proto/calculator/CalcGrpc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/proto/calculator/CalcOuterClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/proto/calculator/ComputeAverageRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/proto/calculator/ComputeAverageRequestOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/proto/calculator/ComputeAverageResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/proto/calculator/ComputeAverageResponseOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc/server/CalcServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc/server/CalcServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/proto/calc/calc.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/calc/calc.proto" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -140,6 +57,11 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="other" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="grpc-course" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -149,29 +71,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="prime.proto" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/proto/prime/prime.proto">
+      <file leaf-file-name="PrimeClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tech/adriano/grpc/prime/client/PrimeClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="302">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calc.proto" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/proto/calc/calc.proto">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalcServer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CalcServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc/server/CalcServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            <state relative-caret-position="342">
+              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,14 +95,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalcServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalcServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc/server/CalcServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="456">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalcClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc/client/CalcClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1043">
+              <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalcServiceGrpc.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/grpc/com/proto/calc/CalcServiceGrpc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="92" column="50" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -199,6 +138,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>avg</find>
+      <find>ave</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -568,8 +513,10 @@
         <option value="$PROJECT_DIR$/src/main/java/tech/adriano/grpc/prime/client/PrimeClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/tech/adriano/grpc/prime/server/PrimeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc/server/CalcServer.java" />
-        <option value="$PROJECT_DIR$/src/main/proto/calc/calc.proto" />
         <option value="$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc/server/CalcServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc/server/CalcClient.java" />
+        <option value="$PROJECT_DIR$/src/main/proto/calc/calc.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc/client/CalcClient.java" />
       </list>
     </option>
   </component>
@@ -604,19 +551,6 @@
               <item name="grpc-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="grpc-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="extracted-include-protos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grpc-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grpc-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="extracted-include-protos" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="grpc-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grpc-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="generated" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -674,7 +608,33 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="grpc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="proto" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="calc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grpc-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grpc-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grpc-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grpc-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grpc-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grpc-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grpc-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grpc-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="calc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grpc-course" type="b2602c69:ProjectViewProjectNode" />
@@ -709,7 +669,17 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="grpc" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="calc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grpc-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grpc-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="grpc" type="462c0819:PsiDirectoryNode" />
+              <item name="calc" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grpc-course" type="b2602c69:ProjectViewProjectNode" />
@@ -719,6 +689,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="grpc" type="462c0819:PsiDirectoryNode" />
               <item name="prime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grpc-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grpc-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="grpc" type="462c0819:PsiDirectoryNode" />
+              <item name="prime" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grpc-course" type="b2602c69:ProjectViewProjectNode" />
@@ -772,7 +752,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_ISSUES_SPLIT_PROPORTION" value="0.56514657" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/tech/adriano/grpc" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../grpc-java-course-master" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -803,7 +783,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.grpc-course [generateProto]">
+  <component name="RunManager" selected="Application.CalcClient">
+    <configuration name="CalcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tech.adriano.grpc.calc.client.CalcClient" />
+      <module name="grpc-course_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech.adriano.grpc.calc.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CalcServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tech.adriano.grpc.calc.server.CalcServer" />
+      <module name="grpc-course_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech.adriano.grpc.calc.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="GreetingClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tech.adriano.grpc.greeting.client.GreetingClient" />
       <module name="grpc-course_main" />
@@ -811,17 +813,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tech.adriano.grpc.greeting.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="GreetingServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tech.adriano.grpc.greeting.server.GreetingServer" />
-      <module name="grpc-course_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tech.adriano.grpc.greeting.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -850,23 +841,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="grpc-course [generateProto]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="generateProto" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -907,19 +881,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Gradle.grpc-course [generateProto]" />
-      <item itemvalue="Application.GreetingServer" />
       <item itemvalue="Application.GreetingClient" />
       <item itemvalue="Application.PrimeServer" />
       <item itemvalue="Application.PrimeClient" />
+      <item itemvalue="Application.CalcServer" />
+      <item itemvalue="Application.CalcClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalcClient" />
+        <item itemvalue="Application.CalcServer" />
         <item itemvalue="Application.PrimeClient" />
         <item itemvalue="Application.PrimeServer" />
         <item itemvalue="Application.GreetingClient" />
-        <item itemvalue="Application.GreetingServer" />
-        <item itemvalue="Gradle.grpc-course [generateProto]" />
       </list>
     </recent_temporary>
   </component>
@@ -950,30 +924,30 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32879046" />
       <window_info anchor="right" id="sbt" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29220778" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27489176" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2950907" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" />
-      <window_info anchor="bottom" id="SonarLint" weight="0.32900432" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32792208" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.28815368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35555556" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32879046" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32792208" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29220778" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27380952" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2950907" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" />
+      <window_info anchor="bottom" id="SonarLint" weight="0.32900432" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.15848452" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32879046" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -985,27 +959,27 @@
       <window_info anchor="bottom" id="Build" order="8" weight="0.32792208" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.29220778" />
       <window_info anchor="right" id="sbt" order="4" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" />
       <window_info id="Image Layers" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.29220778" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.27489176" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.27380952" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="0" weight="0.32900432" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Gradle" order="7" visible="true" weight="0.28815368" />
+      <window_info anchor="right" id="Gradle" order="7" visible="true" weight="0.15848452" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2950907" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32879046" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32792208" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32879046" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -1266,16 +1240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/adriano/grpc/prime/client/PrimeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tech/adriano/grpc/prime/server/PrimeServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1300,20 +1264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/proto/prime/prime.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/proto/calc/calc.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tech/adriano/grpc/prime/server/PrimeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1324,20 +1274,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc/server/CalcServer.java">
+    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/proto/calc/ComputeAverageRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        <state relative-caret-position="133">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc/server/CalcServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/adriano/grpc/prime/client/PrimeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc/server/CalcServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/proto/prime/prime.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/proto/calc/calc.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="82" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/proto/greet/Greet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/com/proto/calc/Calc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/grpc/com/proto/calc/CalcServiceGrpc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="92" column="50" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc/client/CalcClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1043">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/adriano/grpc/calc/server/CalcServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
